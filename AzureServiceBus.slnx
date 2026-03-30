@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/emulador/">
+    <File Path=".env" />
+    <File Path="config.json" />
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="AzureServiceBus/AzureServiceBus.csproj" />
+</Solution>
