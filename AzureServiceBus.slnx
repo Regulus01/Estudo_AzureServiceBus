@@ -4,8 +4,5 @@
     <File Path="config.json" />
     <File Path="docker-compose.yml" />
   </Folder>
-  <Folder Name="/emulador/Arquivos/">
-    <File Path="C:/Users/jsous/Downloads/Azure Service Bus - draw.io.html" />
-  </Folder>
   <Project Path="AzureServiceBus/AzureServiceBus.csproj" />
 </Solution>
