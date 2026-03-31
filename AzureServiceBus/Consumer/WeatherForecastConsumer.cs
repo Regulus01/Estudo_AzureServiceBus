@@ -15,7 +15,9 @@ namespace AzureServiceBus.Consumer
             IServiceScopeFactory scopeFactory)
         {
             _scopeFactory = scopeFactory;
-            _processor = client.CreateProcessor("queue.1");
+            _processor = client.CreateProcessor(
+                topicName: "topic.1",
+                subscriptionName: "subscription.1");
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)

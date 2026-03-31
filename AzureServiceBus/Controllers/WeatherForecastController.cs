@@ -24,7 +24,7 @@ namespace AzureServiceBus.Controllers
                 nome = "jose"
             };
 
-            await _bus.SendMessageAsync("queue.1", message);
+            await _bus.SendMessageAsync("topic.1", message);
            
             return Created();
         }

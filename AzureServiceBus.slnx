@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Arquivos/">
+    <File Path="C:/Users/jsous/Downloads/Azure Service Bus - draw.io.html" />
+  </Folder>
   <Folder Name="/emulador/">
     <File Path=".env" />
     <File Path="config.json" />

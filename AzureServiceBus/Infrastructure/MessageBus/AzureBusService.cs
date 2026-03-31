@@ -21,7 +21,8 @@ namespace AzureServiceBus.Infrastructure.MessageBus
 
             var serviceBusMessage = new ServiceBusMessage(json)
             {
-                ContentType = "application/json"
+                ContentType = "application/json",
+                Subject = "subject1"
             };
 
             try
